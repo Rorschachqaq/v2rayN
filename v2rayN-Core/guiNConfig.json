@@ -1,0 +1,327 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 1,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "使用前先更新订阅",
+      "port": 0,
+      "id": "00000000",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "注意：此节点不可用 - 节点更新于 2022-11-19 09:40 by itlao5.com - 使用前先更新订阅",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "",
+      "subid": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "flow": "",
+      "sni": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "119.36.161.40",
+      "port": 443,
+      "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alterId": 64,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "itlao5.com - 美国  1",
+      "headerType": "none",
+      "requestHost": "www.69961573.xyz",
+      "path": "/path/120306182525",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "   399ms",
+      "subid": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "flow": "",
+      "sni": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "data-hk-v1.heisey.cn",
+      "port": 50205,
+      "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+      "alterId": 1,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "itlao5.com - 中国香港  2",
+      "headerType": "none",
+      "requestHost": "tv.cctv.com",
+      "path": "/hls/cctv5phd.m3u8",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "基础连接已经关闭: 发送时发生错误。",
+      "subid": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "flow": "",
+      "sni": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "data-hk-v2.shwjfkw.cn",
+      "port": 50206,
+      "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+      "alterId": 1,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "itlao5.com - 中国香港  3",
+      "headerType": "none",
+      "requestHost": "data-hk-v2.shwjfkw.cn",
+      "path": "/hls/cctv5phd.m3u8",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "基础连接已经关闭: 发送时发生错误。",
+      "subid": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "flow": "",
+      "sni": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "data-hk-v2.shwjfkw.cn",
+      "port": 50205,
+      "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+      "alterId": 1,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "itlao5.com - 中国香港  4",
+      "headerType": "none",
+      "requestHost": "data-hk-v2.shwjfkw.cn",
+      "path": "/hls/cctv5phd.m3u8",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "    操作超时",
+      "subid": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "flow": "",
+      "sni": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "111.45.22.136",
+      "port": 16292,
+      "id": "f1d39fe1-bfa3-34ff-86a2-29250af03183",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "itlao5.com - 德国  5",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "基础连接已经关闭: 发送时发生错误。",
+      "subid": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "flow": "",
+      "sni": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "139.99.237.62",
+      "port": 80,
+      "id": "35d25899-ed20-46d9-9c7c-99c0d414d5e4",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "itlao5.com - 德国  6",
+      "headerType": "none",
+      "requestHost": "static.azadrah22.com",
+      "path": "/user",
+      "streamSecurity": "",
+      "allowInsecure": "False",
+      "configType": 1,
+      "testResult": "    操作超时",
+      "subid": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "flow": "",
+      "sni": ""
+    }
+  ],
+  "muxEnabled": false,
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "sysProxyType": 1,
+  "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+  "speedPingTestUrl": "https://www.google.com/generate_204",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": null,
+  "defAllowInsecure": false,
+  "subItem": [
+    {
+      "id": "aebe0795-ff8c-416d-a803-2f775391a1ad",
+      "remarks": "remarks",
+      "url": "https://v2.itlao5.com/v2",
+      "enabled": true
+    }
+  ],
+  "uiItem": {
+    "mainSize": "237, 39",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 80,
+      "remarks": 305,
+      "address": 120,
+      "port": 50,
+      "security": 90,
+      "network": 70,
+      "subRemarks": 108,
+      "testResult": 185
+    }
+  },
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "linear",
+  "routingIndex": 0,
+  "routings": [
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": false
+    },
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": false
+    },
+    {
+      "remarks": "locked",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null
+        }
+      ],
+      "enabled": true,
+      "locked": true
+    }
+  ],
+  "enableRoutingAdvanced": false,
+  "coreType": 0,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null
+}
